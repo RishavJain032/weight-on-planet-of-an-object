@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Weight on planet</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container">
+        <h1>Calculate weight of an object on a planet</h1>
+    </div>
+      <div>
+        <div class="massContainer">
+
+            <input id="inputWeight" type="number" placeholder="Please enter your mass">
+        </div>
+        <div class="planetContainer">
+            <select name="selectPlanet" id="selectPlanet"></select>
+        </div>
+    </div>
+    <div class="button">
+        <button onclick="calcWeight()" id="button">Calculate Weight</button>
+    </div>
+    <div class="h1AndImgContainer">
+
+        <h1 id="h1"></h1>
+        <img id="image" src="" alt="">
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
